@@ -1,5 +1,8 @@
-import { Inter } from 'next/font/google'
+import { JetBrains_Mono } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const jetBrainsMono = JetBrains_Mono({
+    weight: ['400', '700'],
+    subsets: ['latin'],
+})
 
-export { inter }
+export { jetBrainsMono }
