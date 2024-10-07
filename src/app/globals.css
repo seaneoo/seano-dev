@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    .container {
+        @apply mx-auto;
+    }
+
+    html, body {
+        @apply w-full h-full;
+    }
+
+    body {
+        @apply bg-background text-foreground text-lg font-medium;
+    }
+
+    a {
+        @apply text-primary;
+        transition: color 200ms ease;
+    }
+}
+
 @layer utilities {
     .text-balance {
         text-wrap: balance;

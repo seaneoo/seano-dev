@@ -6,7 +6,15 @@ const config: Config = {
         './src/components/**/*.{js,ts,jsx,tsx,mdx}',
         './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     ],
-    theme: {},
+    theme: {
+        extend: {
+            colors: {
+                foreground: '#0f172a', // Slate 900
+                background: '#ffffff',
+                primary: '#a855f7', // Purple 500
+            },
+        },
+    },
     plugins: [],
 }
 
