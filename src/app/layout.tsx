@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { ReactNode } from 'react'
-import { jetBrainsMono } from './fonts'
+import { base } from './fonts'
 
 export const metadata: Metadata = {
     title: "Sean O'Connor",
@@ -14,7 +14,7 @@ export default function RootLayout({
 }: Readonly<{ children: ReactNode }>) {
     return (
         <html lang='en' suppressHydrationWarning={true}>
-            <body className={`${jetBrainsMono.className}`}>{children}</body>
+            <body className={`${base.className}`}>{children}</body>
         </html>
     )
 }
