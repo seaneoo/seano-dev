@@ -1,10 +1,15 @@
 import { Button } from '@headlessui/react'
 import Link from 'next/link'
+import cat from './icon.svg'
+import Image from 'next/image'
 
 export default function Home() {
     return (
         <main className='h-full container px-8 xl:px-8 py-8 xl:py-24'>
-            <h1 className='font-semibold text-8xl'>Hi, I&#39;m Sean.</h1>
+            <h1 className='font-semibold text-8xl flex flex-col lg:flex-row justify-center lg:justify-start lg:items-center gap-4'>
+                <Image src={cat} alt='' className='inline-block' /> Hi, I&#39;m
+                Sean.
+            </h1>
             <div className='w-full lg:w-1/2 xl:w-5/12 py-8 xl:py-12'>
                 <p>
                     I am a dedicated and experienced software developer based in
