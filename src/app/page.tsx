@@ -28,7 +28,7 @@ export default function Home() {
             </div>
             <h2 className='font-semibold text-6xl pb-8'>Let&#39;s chat.</h2>
             <Link href='mailto:hey@seano.dev'>
-                <Button className='rounded-full bg-foreground border border-foreground text-background py-2 px-12 text-sm transition-all duration-200 hover:text-foreground hover:bg-transparent'>
+                <Button className='rounded-full bg-foreground border border-foreground text-background py-2 px-12 text-lg transition-all duration-200 hover:text-foreground hover:bg-transparent'>
                     Email me
                 </Button>
             </Link>
